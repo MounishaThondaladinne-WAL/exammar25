@@ -1,0 +1,55 @@
+a {
+  text-decoration: none;
+}
+
+footer {
+  padding: 5px;
+  width: 100%;
+  background-color: #121212;
+  position: relative;
+  overflow: hidden;
+}
+.footer a {
+  color: #a3de83;
+}
+
+.footer p {
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.footer .menu {
+  margin: 10px;
+}
+
+.footer .menu a {
+  color: rgba(255, 255, 255, 0.6);
+  margin: 0 10px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.copyright-link {
+  padding: 0px 10px;
+}
+@media (max-width: 300px) {
+  footer {
+    max-width: 100%;
+    background-color: red;
+  }
+  .footer a {
+    font-size: 12px;
+  }
+}
+@media (min-width: 301px) and (max-width: 500px) {
+  .copytext {
+    display: block;
+  }
+  .footer .menu a {
+    margin: 0 5px;
+  }
+}
+@media (min-width: 501px) and (max-width: 740px) {
+  .copytext {
+    display: block;
+  }
+}

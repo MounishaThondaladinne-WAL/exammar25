@@ -1,0 +1,35 @@
+.App{
+    background-color: burlywood;
+    padding: 15px;
+}
+.Link{
+    margin:10px;
+}
+.Regstration{
+    background: linear-gradient(45deg,green,yellow,green);
+    margin-top: 20px;
+    border:2px solid black;
+    padding:15px;
+    width:500px;
+    margin-left:auto;
+    margin-right: auto;
+  }
+  .Registration-form{
+    text-align: center;
+  }
+  .Registration-input{
+    width:40%;
+    height:25px;
+    text-align: center;
+    border-radius: 10px;
+    margin:12px;
+  }
+  .Members{
+      background-color: aqua;
+      width: 45%;
+      margin-left:auto;
+      margin-right: auto;
+      padding: 10px;
+      border-radius: 15px;
+      margin-top:9px;
+  }

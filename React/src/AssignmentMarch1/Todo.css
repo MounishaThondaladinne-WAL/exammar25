@@ -1,0 +1,16 @@
+.Todo-div{
+    background-color:aqua;
+    width:40%;
+    border-radius: 20px;
+    margin: auto;
+    border: rgb(224, 42, 72) solid 2px;
+    padding:15px;
+}
+.Todo-Para{
+    display: inline-block;
+    margin-right:12px;
+    padding: 5px;
+}
+.Todo-heading{
+    font-family: Bree Serif;
+}
